@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans';
+}
+
+.main {
+  margin: 60px 0;
+
+  .info {
+    width: 100%;
+    margin-top: 60px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+// components
+@import "./card.scss";
+@import "./search.scss";
